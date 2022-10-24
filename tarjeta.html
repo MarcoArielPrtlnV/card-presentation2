@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROFILE CARD</title>
+</head>
+<style>
+
+    body {font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+
+    .card {
+
+        width: 400px;
+        height: 600px;
+        background-color:#0A7832;
+        border-radius: 40px;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        right: -417px;
+        
+    }
+
+    .background {
+
+        width: 100%;
+        opacity: 0.7;
+    }
+
+    .background img {
+
+        height: 303px
+
+    }
+
+    .profilephoto {
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        top: -5rem;
+    }
+
+    .profilephoto img {
+
+        border-radius: 100%;
+        border: 5px solid white;
+        width: 30%;
+    }
+
+    .personalinfo {
+        font-size: 2rem;
+        font-weight: 700;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+        top: -5rem;
+    }
+
+    .personalinfo p {
+
+        padding: 0%;
+        margin: 0%;
+    }
+
+    .personalinfo p:nth-child(2) {
+
+        font-size: 1rem;
+        }
+
+   
+    .socialinfo {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        bottom: 2em;
+    }
+
+    .personalinfo-logos {
+
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 2em;
+        padding: 9px;
+        position: relative;
+        top: -43px;
+        left: 0;
+        
+    }
+
+    #bandera {
+
+        height: 19px;
+    }
+
+    #volcano {
+
+      height: 19px;
+    }
+
+    #camera {
+
+       height: 19px;
+    }
+
+    .socialinfo img {
+
+        display: inline-block;
+        align-items: center;
+        justify-content: center;
+        height: 2em;
+        padding: 8px;
+    }
+</style>
+<body>
+    <div class="card">
+        <div class="background">
+            <img src="./assets/main-picture.jpg" alt="portada">
+        </div>
+     
+
+    <div class="profilephoto">
+        <img src="./assets/profile-photo.jpg" alt="">
+    </div>
+
+    <div class="personalinfo">
+        <p>Marco Pretelín</p>
+        <p>Geophysic Engineer</p>  
+    </div>
+
+    <div class="personalinfo-logos">
+        <img id="bandera" src="https://www.countryflags.com/wp-content/uploads/mexico-flag-png-large.png" alt="flag-mexico"> 
+        <img id="volcano" src="https://cdn4.iconfinder.com/data/icons/nature-life-in-color/128/volcano-eruption-color-512.png" alt="volcano">
+        <img id="camera" src="https://cdn4.iconfinder.com/data/icons/small-n-flat/24/camera-256.png" alt="camera">
+    </div>
+    
+
+    <div class="socialinfo">
+     <a id="facebook" href="https://www.facebook.com/marcopretv/" target="_blank">
+        <img src="https://cdn3.iconfinder.com/data/icons/picons-social/57/06-facebook-256.png" alt="facebooklogo" ></a>
+     <a id="linkedin" href="https://www.linkedin.com/in/marco-ariel-pretelin-vergara/" target="_blank">
+        <img src="https://cdn3.iconfinder.com/data/icons/picons-social/57/11-linkedin-512.png" alt="linkedinlogo"></a>
+     <a id="intagram" href="https://www.instagram.com/marcoarielpretelinv/" target="_blank">
+        <img src="https://cdn0.iconfinder.com/data/icons/phosphor-fill-vol-3/256/instagram-logo-fill-512.png" alt="instagramlogo"></a>
+   </div>
+</div>
+
+</body>
+</html>
